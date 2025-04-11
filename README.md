@@ -103,7 +103,7 @@ Edit
 $conn = new mysqli("localhost", "root", "", "shopping_db");
 ✅ Run the Project
 
-Visit: http://localhost/your-folder-name/index.php
+Visit: http://localhost/myproject/products.php
 
 🙋‍♂️ Admin Credentials (for demo)
 Username: admin
