@@ -1,45 +1,18 @@
 # myproject
-project about electronic device online shopping website.
-🛍️ Electronic Device Online Shopping Website
-An online shopping web application for electronic products built with PHP, HTML, CSS, and MySQL. The platform includes both Admin and User sections, providing an end-to-end experience for managing products and placing orders securely.
-
-📌 Features
-✅ User Side
-👨‍💻 Register/Login with secure password hashing
-
-🛒 View, search, and browse all available electronic products
-
-🧾 Add products to cart and place orders
-
-📦 View order history
-
-🙋‍♂️ Manage personal profile (with update options)
-
-🧠 Passwords are hashed for enhanced security
-
-📜 Informational pages: About Us, Contact Us, Privacy Policy
-
-📱 Integrated links to WhatsApp, Facebook, Twitter, Instagram
-
-🛠️ Admin Side
-🔐 Admin login with secured credentials
-
-🗂️ Manage product catalog: Add, Update, Delete products
-
-👥 View and manage user list
-
-📊 View basic dashboard stats (optional)
-
-🧱 Tech Stack
-Technology	Purpose
-PHP	Server-side scripting
-MySQL	Database management
-HTML	Page structure
-CSS	Styling and responsiveness
-JavaScript (optional)	Enhancements (e.g., form validation)
-📁 Project Structure
-pgsql
-Copy
+->project about an online store for buying electronic devices. Online Shopping Website for Electronic Devices  PHP, HTML, CSS, and MySQL were used to create this electronic product shopping web application. The platform offers a secure end-to-end experience for managing products and placing orders, with both admin and user sections.
+->Features  User Side Use secure password hashing to register or log in.
+->Browse, search, and view every electronic product that is available.
+->Place orders and add items to your cart.
+->Examine your order history.
+->Control your personal profile (with update options) 
+->To improve security, passwords are hashed.
+->Informational pages: Privacy Policy, Contact Us, and About Us
+->Integrated connections to Instagram, Twitter, Facebook, and WhatsApp
+->Admin Side  Admin login using secure credentials
+->Manage the product catalog by adding, editing, and removing items.
+->See and control the user list
+->See the basic dashboard statistics (optional)
+-----File Structure:--------
 Edit
 /project-root
 │
@@ -71,32 +44,19 @@ Edit
 └── shopping_db.sql
 🔒 Security Features
 Password Hashing: All user passwords are hashed using password_hash() before storage.
-
 Prepared Statements: Database queries use prepared statements to prevent SQL injection.
-
 Session Handling: Sessions are securely managed to maintain login states.
-
 ⚙️ How to Set It Up Locally
 ✅ Install Requirements
-
 XAMPP/WAMP (PHP, MySQL server)
-
 Web browser
-
 ✅ Clone or Copy the Project
-
 Place the folder inside htdocs (XAMPP) or www (WAMP)
-
 ✅ Create Database
-
 Open phpMyAdmin
-
 Import shopping_db.sql file to set up tables
-
 ✅ Edit DB Connection
-
 In includes/db.php, ensure your DB credentials match your setup:
-
 php
 Copy
 Edit
@@ -108,7 +68,6 @@ Visit: http://localhost/myproject/products.php
 🙋‍♂️ Admin Credentials (for demo)
 Username: admin
 Password: admin@123 (ensure password is stored hashed in DB)
-
 📣 Pages Overview
 Page	Description
 products.php	Main product listing with add-to-cart
@@ -119,25 +78,15 @@ contact_us.php	Contact form + social media links
 privacy_policy.php	Privacy terms
 🌐 Social Media Links
 In Contact Us, clickable icons or text direct users to:
-
 WhatsApp
-
 Facebook
-
 Twitter
-
 Instagram
-
 📌 Future Improvements (Optional Ideas)
 ✅ Email verification after signup
-
 🧾 Invoice generation after order
-
 📦 Order tracking system
-
 📱 Mobile-friendly enhancements
-
 🛡️ CSRF Token implementation
-
 📜 License
 This project is open source and free to use for learning and development purposes.
